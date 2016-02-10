@@ -1,0 +1,113 @@
+    <div class="flex" id="background">
+      <%= image_tag('logo_small.png') %>
+    </div>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="nav-holder">
+            <a class="pull-left" href="#">
+              <%= image_tag('okoren_logo_transparent.png', class: "logo") %>
+            </a>
+
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="pull-right navigation">
+                <a href="#jumbo_1"><li>Listen</li></a>
+                <a href="#jumbo_2"><li>Follow</li></a>
+                <a href="#jumbo_3"><li>Video</li></a>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </nav>
+
+      <div id="jumbo_1" class="jumbotron">
+        <div class="container">
+          <div class="left-main">
+            <div>
+              <div class="player details">
+                <span class="title" id="title"></span>
+              </div>
+
+              <div class="player player-buttons">
+                <a href="#"><span class="controls glyphicon glyphicon-step-backward" id="back"></span></a>
+                <a href="#"><span class="controls glyphicon glyphicon-play" id="play"></span></a>
+                <a href="#"><span class="controls glyphicon glyphicon-pause" id="pause"></span></a>
+                <a href="#"><span class="controls glyphicon glyphicon-step-forward" id="forward"></span></a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+          <div id="description">
+            <div class="container">
+              <div class="social-holder ">
+
+                <a href="#" >
+                  <%= image_tag('twitter.svg', class: 'social') %>
+                </a>
+                <a href="https://www.facebook.com/trokoren" >
+                  <%= image_tag('facebook.svg', class: 'social') %>
+                </a>
+                <a href="https://soundcloud.com/okoren" >
+                  <%= image_tag('soundcloud.svg', class: 'social') %>
+                </a>
+                <a href="https://www.instagram.com/trokoren/" >
+                  <%= image_tag('instagram.svg', class: 'social') %>
+                </a>
+
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="jumbotron" id="separator_1">
+        <div class="container">
+
+        </div>
+      </div>
+
+
+      <div class="jumbotron" id="jumbo_2">
+        <div class="container">
+          <div class="flex">
+
+            <div class="connect">
+              <span class="invite">Stay Informed</span>
+              <form action="https://docs.google.com/forms/d/1OlFEoQnno19JdI0LPMsRm4jLdQ6ZV6GSOlsVWRhanms/formResponse" method="post" id="sign_up">
+                <input type="text" name="entry.1472382392" placeholder="first_name">
+                <input type="text" name="entry.1177169073" placeholder="last_name">
+                <input type="email" name="entry.402403821" placeholder="fan@gmail.com">
+                <input type="hidden" value="Submit" name="submit">
+                <input type="submit" value="Connect" id="submit_button">
+              </form>
+              <br>
+              <div class="promo_text">Concert Tours | New Releases | Merch Announcements | Exclusive Content</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="jumbotron" id="separator_1">
+        <div class="container">
+
+        </div>
+      </div>
+
+        <div class="jumbotron" id="jumbo_3">
+          <a href="#">
+            <div class="flex" id="click_vid_start">
+                <iframe id="video_1" width="100%" height="100%" src="https://www.youtube.com/embed/GfUarfSLz54?&showinfo=0&showsearch=0&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
+
+                <%= image_tag('play_transparent.svg', id: "play_video") %>
+            </div>
+          </a>
+        </div>
+
+        <footer>
+          <div class="container">
+            <span>&copy; 2016 OKOREN</span>
+            <a href="https://soundcloud.com/okoren" >
+              <%= image_tag('powered_by_soundcloud.png', class: 'soundcloud pull-right') %>
+          </div>
+        </footer>
+      </div> <!-- /container -->
