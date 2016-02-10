@@ -14,6 +14,7 @@ gem 'dotenv'
 gem 'bootstrap', '~> 4.0.0.alpha3'
 gem 'rails-assets-tether', '>= 1.1.0'
 gem 'sprockets-rails', '~> 2.3.2'
+gem 'yui/compressor'
 
 
 
