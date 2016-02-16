@@ -16,6 +16,9 @@ gem 'rails-assets-tether', '>= 1.1.0'
 gem 'sprockets-rails', '~> 2.3.2'
 gem 'yui-compressor'
 
+gem 'unicorn'
+gem 'capistrano-rails', group: :development
+
 
 
 group :development, :test do
